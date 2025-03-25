@@ -1,0 +1,11 @@
+[package]
+name = "example-guest_test"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+libc = "*"
+
+[[bin]]
+name = "guest_test"

@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = [ "*"]
+# Only check / build main crates by default (check all with `--workspace`)
+default-members = ["*"]
+exclude = []
